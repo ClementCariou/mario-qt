@@ -12,7 +12,7 @@ le framerate à 60 fps et donc empêchant cette solution. Je vous conseille donc
 pas installer ce programme sur Linux.
 
 ## Installation sous Windows:
-* Faite une installation complète de QT 5.6 ou plus sur le site officiel: https://download.qt.io/archive/qt/ 
+* Faite une installation complète de QT 5.6 sur le site officiel: https://download.qt.io/archive/qt/ 
 * Ouvrez et installez la police de caractères du fichier: PressStart2P.ttf
 * Ouvrez le projet (fichier Mario/Mario.pro) sous QTCreator
 * Compiler le programme en mode Release (car QJSEngine est 10x plus lent en mode Debug).
@@ -20,7 +20,7 @@ pas installer ce programme sur Linux.
 * Des fenêtres de dialogue vont s'ouvrir, spécifiez les fichiers de ressource demandés (sprites.json puis map.json).
 
 ## Installation sous Linux:
-* Installez QT 5.6 ou plus (cmd ou site officiel)
+* Installez QT 5.6 (cmd ou site officiel)
 * Installez les packages:
 	sudo apt* get install qtdeclarative5* dev libgl1* mesa* dev
 * Ouvrez et installez la police de caractère du fichier: PressStart2P.ttf
